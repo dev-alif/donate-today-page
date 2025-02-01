@@ -5,6 +5,11 @@
     margin: 0;
 }
 
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+
 .button{
     color: white;
     background-color: #FF5959;
@@ -21,6 +26,21 @@
     cursor: pointer;
 }
 
+.section-title{
+    font-family: "Inter", serif;
+    font-size: 45px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.section-paragraph{
+    font-family: "Poppins", serif;
+    font-size: 18px;
+    color: #707070;
+    text-align: center;
+    margin: 20px 0 50px 0;
+}
+
 /* header styles */
 header{
     background: url('../images/hero-image.jpg');
@@ -31,6 +51,7 @@ header{
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    margin-bottom: 130px;
 }
 
 header h1{
@@ -49,4 +70,42 @@ header p{
     margin: 20px 0 30px 0;
     width: 691px;
     text-align: center;
+}
+
+/* donate plan section styles */
+.donation-boxes{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 24px;
+    margin-bottom: 130px;
+    font-family: "Poppins", serif;
+}
+
+.donation-box1, .donation-box2, .donation-box3 {
+    padding: 60px 25px;
+}
+
+.donation-box1:hover, .donation-box2:hover, .donation-box3:hover{
+    box-shadow: 10px 10px 5px #707070;
+}
+
+.donation-boxes h3{
+    margin: 20px 0 16px 0;
+    font-size: 24px;
+}
+
+.donation-boxes p{
+    font-size: 16px;
+    color: #707070;
+}
+
+.donation-box1{
+    background-color: #EDF5F6;
+}
+.donation-box2{
+    background-color: #FFEEEE;
+}
+.donation-box3{
+    background-color: #FFF4D6;
 }
