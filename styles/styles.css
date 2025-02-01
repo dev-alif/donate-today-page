@@ -2,6 +2,8 @@
 *{
     /* font-family: "Inter", serif; */
     /* font-family: "Poppins", serif; */
+    /* font-family: "Lobster", serif; */
+    /* font-family: "Manrope", serif; */
     margin: 0;
 }
 
@@ -161,7 +163,7 @@ header p{
 }
 
 .contribute-1-left, .contribute-1-right{
-    width: 45%;
+    width: 40%;
 }
 
 .contribute-1-right img{
@@ -183,10 +185,60 @@ header p{
 }
 
 .contribute-2-left, .contribute-2-right{
-    width: 45%;
+    width: 40%;
 }
 
 .contribute-2-left img{
     width: 100%;
     border-radius: 5px;
+}
+
+/* subscribe section styles */
+.subscribe-box{
+    background-color: #FFF4D6;
+    border: 0;
+    border-radius: 5px;
+    width: 60%;
+    margin: 0 auto;
+    padding: 75px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.subscribe-box input{
+    background-color: #D9D9D9;
+    border: 0;
+    border-radius: 5px 0 0 5px;
+    padding: 16px 0 16px 20px;
+    font-size: 20px;
+    font-family: "Inter", serif;
+}
+
+.subscribe-box button{
+    border-radius: 0 5px 5px 0;
+}
+
+/* footer styles */
+footer{
+    margin-top: 130px;
+    background-color: #0B0D18;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 50px 0;
+}
+
+footer h2{
+    font-family: "Lobster", serif;
+    color: #FF5959;
+    font-size: 36px;
+    margin-bottom: 40px;
+}
+
+footer p{
+    font-family: "Manrope", serif;
+    color: #707070;
+    font-size: 14px;
 }
