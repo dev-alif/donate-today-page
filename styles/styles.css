@@ -74,6 +74,18 @@ header p{
     text-align: center;
 }
 
+@media screen and (max-width: 576px) {
+    header h1, header p{
+        width: 80%;
+    }
+    header h1{
+        font-size: 40px;
+    }
+    header p{
+        font-size: 16px;
+    }
+}
+
 /* donate today section styles */
 .amount-boxes{
     display: flex;
@@ -109,6 +121,18 @@ header p{
 .donate-today{
     text-align: center;
     margin-bottom: 130px;
+}
+
+@media screen and (max-width: 576px) {
+    .donate-today{
+        width: 80%;
+        margin: 0 auto 130px;
+    }
+    .amount-boxes{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        width: 100%;
+    }
 }
 
 /* donate plan section styles */
@@ -147,6 +171,12 @@ header p{
 }
 .donation-box3{
     background-color: #FFF4D6;
+}
+
+@media screen and (max-width: 576px) {
+    .donation-boxes{
+        flex-direction: column;
+    }
 }
 
 /* contribute section 1 styles */
@@ -193,6 +223,15 @@ header p{
     border-radius: 5px;
 }
 
+@media screen and (max-width: 576px) {
+    .contribute-1, .contribute-2{
+        flex-direction: column;
+    }
+    .contribute-1-left, .contribute-1-right, .contribute-2-left, .contribute-2-right{
+        width: 100%;
+    }
+}
+
 /* subscribe section styles */
 .subscribe-box{
     background-color: #FFF4D6;
@@ -217,6 +256,12 @@ header p{
 
 .subscribe-box button{
     border-radius: 0 5px 5px 0;
+}
+
+@media screen and (max-width: 576px) {
+    .subscribe-box{
+        display: none;
+    }
 }
 
 /* footer styles */
