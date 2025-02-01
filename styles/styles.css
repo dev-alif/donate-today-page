@@ -4,3 +4,49 @@
     /* font-family: "Poppins", serif; */
     margin: 0;
 }
+
+.button{
+    color: white;
+    background-color: #FF5959;
+    padding: 16px 24px;
+    font-size: 20px;
+    font-family: "Inter", serif;
+    border: 0;
+    border-radius: 5px;
+}
+
+.button:hover{
+    background-color: #FFEEEE;
+    color: black;
+    cursor: pointer;
+}
+
+/* header styles */
+header{
+    background: url('../images/hero-image.jpg');
+    height: 90vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+header h1{
+    font-family: "Inter", serif;
+    font-size: 65px;
+    font-weight: bold;
+    color: white;
+    width: 826px;
+    text-align: center;
+}
+
+header p{
+    font-family: "Poppins", serif;
+    font-size: 18px;
+    color: white;
+    margin: 20px 0 30px 0;
+    width: 691px;
+    text-align: center;
+}
