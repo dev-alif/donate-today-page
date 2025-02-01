@@ -72,6 +72,43 @@ header p{
     text-align: center;
 }
 
+/* donate today section styles */
+.amount-boxes{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 21px;
+    width: 765px;
+    margin: 0 auto;
+}
+
+.amount-box{
+    font-family: "Inter", serif;
+    font-size: 30px;
+    font-weight: bold;
+    color: #707070;
+    padding: 44px 0;
+    background-color: #FAFAFA;
+    width: 135px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid white;
+    border-radius: 5px;
+    margin-bottom: 30px;
+}
+
+.amount-box:hover{
+    border: 2px solid #FF5959;
+    background-color: #FFEEEE;
+    color: #FF5959;
+}
+
+.donate-today{
+    text-align: center;
+    margin-bottom: 130px;
+}
+
 /* donate plan section styles */
 .donation-boxes{
     display: flex;
@@ -87,7 +124,7 @@ header p{
 }
 
 .donation-box1:hover, .donation-box2:hover, .donation-box3:hover{
-    box-shadow: 10px 10px 5px #707070;
+    box-shadow: 5px 5px 10px #707070;
 }
 
 .donation-boxes h3{
@@ -108,4 +145,48 @@ header p{
 }
 .donation-box3{
     background-color: #FFF4D6;
+}
+
+/* contribute section 1 styles */
+.contribute-1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 83px;
+    margin-bottom: 100px;
+}
+
+.contribute-1 .section-title, .contribute-1 .section-paragraph{
+    text-align: left;
+}
+
+.contribute-1-left, .contribute-1-right{
+    width: 45%;
+}
+
+.contribute-1-right img{
+    width: 100%;
+    border-radius: 5px;
+}
+
+/* contribute section 2 styles */
+.contribute-2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 83px;
+    margin-bottom: 100px;
+}
+
+.contribute-2 .section-title, .contribute-2 .section-paragraph{
+    text-align: left;
+}
+
+.contribute-2-left, .contribute-2-right{
+    width: 45%;
+}
+
+.contribute-2-left img{
+    width: 100%;
+    border-radius: 5px;
 }
